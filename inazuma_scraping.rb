@@ -17,7 +17,7 @@ class Scraping
  
       #④next_urlがなければbreakする
     end
-    #⑤inksに入っているlinkを利用しながらget_productメソッドを利用する
+    #⑤linksに入っているlinkを利用しながらget_productメソッドを利用する
   end
  
   def self.get_product(link)
